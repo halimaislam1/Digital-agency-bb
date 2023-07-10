@@ -5,9 +5,9 @@
 .nav-container{
     display: flex;
     justify-content: space-around;
-    background-color:gray;
+    background-color:grey;
     /* margin-top: 20px; */
-    padding: 20px;
+    padding: 20px ;
     align-items: center;
     
 }
@@ -22,8 +22,41 @@
 .banner-container{
     height: 100vh;
     background-image: url('./asset/image/background.jpg'),
-    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3));
+    background-blend-mode: overlay;
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* disply flx a kisu dekha
+     jai na karon aikhne kuno 2  ta item nei
+     j pashaspashi ashbe  */
+     
+}
+.primary{
+    color: red;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.Desciption{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.btn{
+    padding: 12px 20px;
+    border: none; 
+}
+.bg-primary{
+   background-color: red;
+   color: white;
 }
